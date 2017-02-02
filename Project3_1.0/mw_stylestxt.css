@@ -8,4 +8,46 @@
    Date:
 
    Filename:         mw_layout.css
-   Supporting Files: none
+   Supporting Files: none */
+
+   body {
+     font-family: Tahoma, Geneva, sans-serif;
+   }
+   nav ul {
+     background-color: rgb(125, 120, 89);
+      line-height: 3em;
+      list-style-type: none;
+   }
+   nav ul a {
+     color: white;
+     opacity: 0.5;
+   text-decoration: none;
+   }
+   nav li:hover  {
+     background-color: rgb(131, 121, 36);
+     list-style-image: url(wheelmarker.png);
+     color: yellow;
+     opacity: 1;
+   }
+#leftsection p {
+  font-size: 22px;
+}
+#leftsection p: first-line{
+font-size: uppercase;
+}
+blockquote {
+  background-color: rgb(131, 121, 36);
+  color: white;
+  font-size: 16px;
+  font-family: "Comic Sans, MS, Times, cursive";
+}
+blockquote p:before {
+  content: open-quote;
+}
+blockquote p:after {
+  content: close-quote;
+}
+#rightsection h1 {
+  font-size: 22px;
+  letter-spacing: 3px;
+}

@@ -19,20 +19,16 @@ body {
    margin: 0px auto;
    padding: 0px;
    width: 900px;
-   font-family: Tahoma, Geneva, sans-serif;
+
 }
 
 header, footer {
    margin: 0px auto;
 }
-
-nav ul {
-  background-color: rgb(125, 120, 89);
-   float: left;
-   margin-right: 10px;
-   width: 150px;
-   line-height: 3em;
-   list-style-type: none;
+nav {
+  float: left;
+  margin-right: 10px;
+  width: 150px;
 }
 
 #leftsection {
@@ -51,6 +47,7 @@ nav ul {
    width: 650px;
    font-size: 18px;
    letter-spacing: 7px;
+   text-decoration: none;
    text-indent: : center;
 }
 
